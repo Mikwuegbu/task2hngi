@@ -1,3 +1,52 @@
 body {
-    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1,
+h3,
+p {
+    margin: 5%;
+}
+
+.container {
+    text-align: center;
+    background-color: #b5b4d21f;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(20, 9, 9, 0.267);
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #012771;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+button:hover,
+a:hover {
+    opacity: 0.6;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+}
+
+.profile-name {
+    font-size: 26px;
+    color: #060606;
 }

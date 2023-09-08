@@ -4,12 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
     <title>Task2hngi</title>
 </head>
 
 <body>
-    <h1>HEllow World </h1>
+    <div class="container">
+        <img src="./image/img1.jpg" class="profile-picture" alt="Mark Stephen" data-testid="slackDisplayImage" />
+
+        <h1 class="profile-name" data-testid="slackUserName">Mark Stephen</h1>
+        <h3 class="myTrack" data-testid="myTrack">Frontend</h3>
+        <p id="currentDay" data-testid="currentDayOfTheWeek"></p>
+        <p id="currentUTCTime" data-testid="currentUTCTime"></p>
+        <a href="https://github.com/Mikwuegbu/task2hngi/tree/main" data-testid="githubURL"><button>GitHub</button></a>
+    </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
