@@ -8,9 +8,9 @@ let displayDayAndTime = () => {
 
     const dayOfWeek = daysOfWeek[now.getUTCDay()];
 
-    let utcTime =
+    let utcTime = new Date().getTime();
 
-        dayOfTheWeek.textContent = dayOfWeek;
+    dayOfTheWeek.textContent = dayOfWeek;
     utcCurrentTime.textContent = utcTime;
 }
 

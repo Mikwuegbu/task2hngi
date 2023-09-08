@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Nunito+Sans:opsz@6..12&display=swap');
+
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
     height: 100vh;
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
+
 
 h1,
 h3,
@@ -17,6 +21,8 @@ p {
     background-color: #b5b4d21f;
     padding: 25px;
     border-radius: 20px;
+    width: auto;
+    height: auto;
     box-shadow: 0 4px 8px rgba(20, 9, 9, 0.267);
 }
 
